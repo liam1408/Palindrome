@@ -1,6 +1,4 @@
 # Liam Meshulam
-# ID : 318737079
-# Q4 mman 11
 # program that gets a string with hexadecimal numbers and coverts to decimal 
 # and then prints their values sorted by order for unsigned and signed arrays
 
