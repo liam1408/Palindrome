@@ -1,6 +1,5 @@
-# Palindrome
-Palindrome check in Assembly (MIPS)
-Instrctions for this palindrome check: 
+# hex pairs converter
+Instrctions: 
 Input String: The program receives a string of characters (make sure the input prompt is appropriate) with a maximum length of 37 characters (in practice, 36). The characters are pairs of hexadecimal digits (each pair representing a byte) separated by the $ character. After the last pair, the ENTER key is pressed. The string is stored in the data segment in an array named stringhex (allocate 37 bytes for this array). Perform a syscall using 8 to handle the input.
 
 Validation Procedure: The program checks the validity of the input using a procedure called valid_is, which takes the address of the stringhex array as a parameter. If the input is valid, the procedure returns a value between 1 and 12 in register v0, indicating the number of valid hexadecimal pairs. If the input is invalid, the procedure returns the value 0.
